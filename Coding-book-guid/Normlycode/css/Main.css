@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+html, body 
+{
+    font-family: "Montserrat", sans-serif;
+    background-color: aliceblue;
+}
+
+* 
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header 
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.1rem 5rem;
+    background: linear-gradient(180deg, #6fb4fd 0%, #5caafc 100%);
+}
+
+.brand a 
+{
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+ul 
+{
+    display: flex;
+    flex-direction: row;
+}
+
+li 
+{
+    list-style-type: none;
+    margin-left: 3rem;
+}
+
+li > a
+{
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+
+li::after 
+{
+    content: '';
+    width: 0rem;
+    height: 0.15rem;
+    background-color: #fff;
+    display: block;
+    border-radius: 0.2rem;
+    margin: 0.2rem auto 0 auto;
+    transition: all 0.3s ease-in-out;
+}
+
+li:hover::after 
+{
+    width: 2rem;
+}
+
+.social
+{
+    margin-top: 30px;
+    margin-left: 20px;
+    border-style: solid;
+    border-color: blue;
+    height: 550px;
+}
+
+.socialH1
+{
+    font-weight: 200;
+}
+
+.socialScrol {
+    width: 300px;
+    height: max-content;
+    overflow-y: scroll;
+    scrollbar-color: rebeccapurple green;
+    scrollbar-width: thin;
+    border-style: solid;
+    border-color: red;
+    margin-left: auto; 
+    margin-right: 0;
+}
+
+.socialInnerboc
+{
+    border-style: solid;
+    border-color: red;
+    width: max-content;
+}
+
+.sl  
+{
+    margin-right: 242px;
+    margin-left: 242px;
+}
+
+.tiktok
+{
+    margin-left: 30px;
+}
+
+.tiktok h3
+{
+    margin-left: 20px;
+}
+
+.insta
+{
+    margin-left: 30px;
+}
+
+.insta h3
+{
+    margin-left: 20px;
+}
+
+#myPdf1
+{
+    width: 66%;
+    height: 845px;
+}
